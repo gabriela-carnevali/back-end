@@ -14,3 +14,5 @@ app.get('/filme', (req, res) => {
         res.json(results)
     })
 })
+
+module.exports = app
