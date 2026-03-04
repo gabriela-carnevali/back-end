@@ -14,5 +14,5 @@ pool.getConnection((err,connection) => {
 })
 
 app.listen ((PORT), () => {
-    console.log ('Servidor Rodando!')
+    console.log ('Servidor Rodando na Porta 3000!')
 })
